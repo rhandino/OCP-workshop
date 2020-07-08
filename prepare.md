@@ -20,4 +20,4 @@ for i in {1..60}; do oc adm policy add-role-to-user view user$i -n occli --as=sy
 
 Para la app de ejemplo:
 oc create -f https://raw.githubusercontent.com/rmkraus/ocp4-workshop/master/hello_world_template.json -n openshift
-`
+```
